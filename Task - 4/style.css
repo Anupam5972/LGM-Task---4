@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #389be2;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.wrapper{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    align-items: center;
+}
+.uil{
+    font-size: 72px;
+    font-family: poppins;
+    font-style: normal;
+    justify-content: center;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+
+}
+.calculator{
+    background-color: #3b454d;
+    padding: 15px;
+    font-family: poppins;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px #fff, 5px 5px 12px rgba(0, 0, 0, 0.15);
+    display: grid;
+    grid-template-columns: repeat(4, 64px);
+}
+
+input{
+    font-family: poppins;
+    grid-column: span 4;
+    height: 70px;
+    width: 260px;
+    background-color: #ecf0f3;
+    box-shadow: inset -4px -6px 12px #fbfbfb91, inset 5px 5px 12px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 30px;
+    color: rgba(70, 70, 70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button{
+    font-family: poppins;
+    height: 48px;
+    transition: 0.3s;
+    width: 48px;
+    background-color: #ecf0f3;
+    box-shadow: -2px -2px 12px rgb(141, 62, 62), 5px 5px 12px rgb(0, 0, 0, 0.15);
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 16px;
+}
+button:hover{
+    font-family: poppins;
+    background-color: red;
+    color: #fff;
+}
+.equal{
+    width: 115px;
+    font-family: poppins;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: -1px -1px 12px rgb(151, 41, 41), 5px 5px 12px rgb(0, 0, 0, 0.15);
+}
